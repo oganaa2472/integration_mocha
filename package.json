@@ -1,0 +1,22 @@
+{
+  "name": "mocha",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha",
+    "test:unit": "mocha test/appTest.js test/cubeTest.js",
+    "test:integration": "mocha test/integrationTest.js",
+    "test:all": "mocha --reporter spec"
+  },
+  "dependencies": {
+    "chai": "^6.0.1",
+    "mocha": "^11.7.2"
+  },
+  "devDependencies": {
+    "sinon": "^21.0.0"
+  }
+}
